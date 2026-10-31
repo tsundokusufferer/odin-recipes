@@ -1,0 +1,50 @@
+body {
+    background: lightsalmon;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.card {
+    background: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.card-content {
+    padding-left: 0px;
+}
+
+.card li {
+    display: inline-block;
+    text-align: center;
+}
+
+.recipe {
+    background-color: mediumaquamarine;
+    padding: 15px;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+.recipe-image {
+    width: auto;
+    height: 200px;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.recipe-text {
+    font-weight: bold;
+}
+
+.recipe-text a {
+    color: white;
+    text-decoration: none;
+}

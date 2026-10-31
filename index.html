@@ -4,16 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1 id="header">Odin Recipes</h1>
 
-    <ul>
-        <li><a href="./recipes/chicken-adobo.html">Chicken Adobo</a></li>
-        <li><a href="./recipes/lasagna.html">Lasagna</a></li>
-        <li><a href="./recipes/blueberry-cheesecake.html">Blueberry Cheesecake</a></li>
-    </ul>
-
-    <a href="#header">Return to Top</a>
+    <div class="card">
+        <ul class="card-content">
+            <li>
+                <div class="recipe">
+                    <a href="./recipes/chicken-adobo.html">
+                        <img class="recipe-image" src="./img/chicken-adobo.jpg" alt="Top view of chicken adobo, served on a Pyrex dish." width="480" height="360">
+                    </a>
+                    <div class="recipe-text">           
+                        <a href="./recipes/chicken-adobo.html">Chicken Adobo</a>
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <div class="recipe">
+                    <a href="./recipes/lasagna.html">
+                        <img class="recipe-image" src="./img/lasagna.jpg" alt="Close-up of a slice of Lasagna, on a white plate." width="480" height="319">
+                    </a>
+                    <div class="recipe-text">          
+                        <a href="./recipes/lasagna.html">Lasagna</a>
+                    </div>
+                </div>
+            </li>
+        
+            <li>
+                <div class="recipe">
+                    <a href="./recipes/blueberry-cheesecake.html">
+                        <img class="recipe-image" src="./img/blueberry-cheesecake.jpg" alt="A slice of New York-style cheesecake, with extra blueberries on the side, served on a plate." width="480" height="319">
+                    </a>
+                    <div class="recipe-text">
+                        <a href="./recipes/blueberry-cheesecake.html">Blueberry Cheesecake</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
 </body>
 </html>
