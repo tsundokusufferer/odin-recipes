@@ -3,17 +3,31 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.home, .button-center button {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.home a {
+    color: white;
+    text-decoration: none;
+}
+
 h1 {
     text-align: center;
     color: white;
     font-size: 40px;
 }
 
-.card {
+.card, .masterlist {
     background: white;
+    border-radius: 25px;
+}
+
+.card {
     display: flex;
     justify-content: center;
-    border-radius: 25px;
 }
 
 .card-content {
@@ -47,4 +61,56 @@ h1 {
 .recipe-text a {
     color: white;
     text-decoration: none;
+}
+
+.masterlist {
+    padding: 10px 15px;
+}
+
+.masterlist-content, .masterlist-figure {
+    background-color: mediumaquamarine;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px;
+    margin: 20px 10px;
+}
+
+.masterlist-content, .masterlist-figure, .masterlist-figure img, .button-center button {
+    border-radius: 25px;
+}
+
+.masterlist-content {
+    text-align: justify;
+}
+
+.masterlist-figure {
+    text-align: center;
+}
+
+.masterlist-figure img {
+    width: 60%;
+    height: auto;
+}
+
+.masterlist-figure figcaption {
+    padding-top: 25px;
+    margin: 0 195px;
+}
+
+.masterlist a {
+    color: white;
+    text-decoration: none;
+}
+
+.button-center {
+    display: flex;
+    justify-content: center;
+}
+
+.button-center button {
+    background-color: mediumaquamarine;
+    padding: 15px;
+    border: none;
+    margin-bottom: 15px;
 }
