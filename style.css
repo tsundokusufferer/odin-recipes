@@ -3,7 +3,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.home, .button-center button {
+.home, .button {
     text-align: center;
     font-size: 25px;
     font-weight: bold;
@@ -67,16 +67,19 @@ h1 {
     padding: 10px 15px;
 }
 
-.masterlist-content, .masterlist-figure {
+.masterlist-content, .masterlist-figure, .button {
     background-color: mediumaquamarine;
     color: white;
-    font-weight: bold;
+}
+
+.masterlist-content, .masterlist-figure {
     font-size: 18px;
+    font-weight: bold;
     padding: 20px;
     margin: 20px 10px;
 }
 
-.masterlist-content, .masterlist-figure, .masterlist-figure img, .button-center button {
+.masterlist-content, .masterlist-figure, .masterlist-figure img, .button {
     border-radius: 25px;
 }
 
@@ -103,14 +106,10 @@ h1 {
     text-decoration: none;
 }
 
-.button-center {
-    display: flex;
-    justify-content: center;
-}
-
-.button-center button {
+.button {
     background-color: mediumaquamarine;
+    display: flex;
+    width: fit-content;
     padding: 15px;
-    border: none;
-    margin-bottom: 15px;
+    margin: 0 auto 15px;
 }
